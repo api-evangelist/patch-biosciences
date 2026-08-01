@@ -1,22 +1,66 @@
 aid: patch-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/patch-biosciences.png
 name: Patch Biosciences
-description: Patch Biosciences is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Patch Biosciences was a synthetic-biology and machine-learning company,
+  founded in 2020 and based in New York, that built an AI platform for genetic
+  sequence design — computationally engineering DNA "cargos" and regulatory
+  elements to make gene and RNA therapies more effective, specific, and durable.
+  It was backed by Andreessen Horowitz (a16z) Bio + Health, Casdin Capital, and
+  S32. Patch Biosciences was acquired by Ginkgo Bioworks in early 2024 and folded
+  into Ginkgo's genetic-medicine services; it no longer operates as an
+  independent company. Its former standalone website (patch.bio) is now parked
+  and no public developer portal, API, or documentation surface exists. This
+  profile is retained in the API Evangelist network as an acquired/defunct
+  company record surfaced from a16z portfolio enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/patch-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Casdin Capital
+- S32
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Ginkgo Bioworks
+x-acquired-date: '2024-03'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Synthetic Biology
+- Genetic Medicine
+- Gene Therapy
+- Machine Learning
+- Artificial Intelligence
+- Biotechnology
+- Acquired
 apis: []
+common:
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/patch-biosciences
+- type: LinkedIn
+  url: https://www.linkedin.com/company/patchbio
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
