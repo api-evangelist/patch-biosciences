@@ -55,7 +55,7 @@ tags:
 - Synthetic Biology
 - Genetic Medicine
 - Gene Therapy
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Biotechnology
 - Acquired
@@ -68,6 +68,7 @@ tags_raw:
 - Artificial Intelligence
 - Biotechnology
 - Acquired
+- Machine-Learning
 apis: []
 common:
 - type: Crunchbase
